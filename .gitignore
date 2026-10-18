@@ -1,15 +1,47 @@
+# Gradle, Kotlin, and native build output (all modules)
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local Android SDK and signing configuration
+local.properties
+keystore.properties
+key.properties
+*.jks
+*.keystore
+
+# Packaged apps and profiler output
+*.apk
+*.aab
+*.ap_
+*.hprof
+
+# Android Studio user state; keep shared project settings in version control
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
+/.idea/caches/
+/.idea/libraries/
+/.idea/shelf/
 /.idea/modules.xml
 /.idea/workspace.xml
+/.idea/tasks.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/deviceManager.xml
+
+# Python helpers
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local environment and operating system files
+.env
+.env.local
+.env.*.local
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+Desktop.ini
